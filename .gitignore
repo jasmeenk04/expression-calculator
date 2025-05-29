@@ -1,0 +1,28 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VSCode settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Environment files
+.env
+*.env
+
+# Python virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints (just in case)
+.ipynb_checkpoints/
+
+# Logs and temporary files
+*.log
+*.tmp
+
