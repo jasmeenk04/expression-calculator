@@ -28,7 +28,9 @@ def infix_to_postfix(infix):
     ex = ""
     loser = None
     for index, s in enumerate(infix):
-        if loser != None:
+        if s == " ":
+            continue
+        if loser is not None:
             if loser > index:
                 continue
         if s.isdigit():
